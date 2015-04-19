@@ -1,7 +1,7 @@
 # Servers-502 repository
 502 error pages for services running on back-end servers
 
-# How to deploy it?
+## How to deploy it?
 
 To deploy it:
   - Clone the repository with `git clone git@github.com:nasqueron/servers-502.git /var/wwwroot`
