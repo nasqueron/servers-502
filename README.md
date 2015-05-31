@@ -8,3 +8,9 @@ To deploy it:
   - Edit your web server configuration
       - Declare `/var/wwwroot/sub.domain.tld` as root directory
       - Add a rule to call `502.html` if a 502 error is thrown
+
+## Images credit
+
+* Air mail illustration by Sanja Gjenero
+  http://www.rgbstock.com/license/
+
