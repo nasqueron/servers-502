@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>502 Service unavailable — Nasqueron</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200|Source+Sans+Pro|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://infra.nasqueron.org/assets/css/app.css">
+  </head>
+  <body>
+    <header class="row">
+        <div class="large-12 columns">
+            <h1><img src="https://assets.nasqueron.org/logos/logo-white-64px.png" alt="Nasqueron logo" /> 502 Service unavailable</h1>
+        </div>
+    </header>
+
+    <section class="row">
+      <div class="large-12 columns">
+        <div class="callout" style="margin-bottom: 10vh">
+          <p>This application is hosted on the <strong>Nasqueron PaaS</strong> and served through a Docker container.</p>
+          <p>The container isn't currently reachable. The most probable causes are a current service maintenance or a server outage.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h2>What can I do?</h2>
+        <p>First, <a href="javascript:window.location.reload();">refresh this page</a> in a few moments to see if the servers issue goes on.</p>
+        <p>Normally, we would then advice you to check our status page for more information. But here, the unavailable service is the status page itself.</p>
+        <p>As this is a critical piece of infrastructure, the best course of action is to report the problem.</p>
+
+        <section id="call-for-actions" style="font-variant: small-caps">
+            <a class="button warning" href="https://devcentral.nasqueron.org/maniphest/task/edit/form/4/?title=Server outage: status.nasqueron.org&description=**URL of the service:**%0Ahttps://status.nasqueron.org%0A%0A**HTTP error code:**%0A502%0A%0A**Issue**%0A%0ADescribe here what happened. We'll investigate as soon as possible the issue.">Report a server outage</a></li>
+            <a class="button" href="http://purl.net/NET/Nasqueron/GetSupport">Get further assistance</a>
+        </section>
+
+      </div>
+    </div>
+
+    <footer>
+    <div class="row">
+        <div class="large-12 columns"><hr />
+            <div class="row">
+                <div class="large-3 columns site-description">
+                    <p><img src="https://assets.nasqueron.org/logos/logo-main-133px.png" width="80px" alt="Nasqueron logo"/></p>
+                    <p><strong>Nasqueron</strong> is a community of developers <span class="ampersand">&</span> creative people.</p>
+                    <hr />
+                    <p><strong>Nasqueron Infrastructure</strong> documents our infrastructure servers and operations.</p>
+                </div>
+                <div class="large-6 large-offset-3 columns end">
+                    <p class="text-right">“This seems odd and even wrong, but nevertheless it is the case.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="https://infra.nasqueron.org/assets/js/app.js"></script>
+  </body>
+</html>
